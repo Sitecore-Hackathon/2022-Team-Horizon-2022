@@ -12,16 +12,14 @@ You can find a very good reference to Github flavoured markdown reference in [th
 ### 2022-Team-Horizon-2022
 
 ## Category
-⟹ Write the name of the selected category
+### 2. Extend the Sitecore Command Line Interface (CLI) plugin
 
 ## Description
-⟹ Write a clear description of your hackathon entry.  
 
-  - Module Purpose
-  - What problem was solved (if any)
-    - How does this module solve it
+  - Unit Testing getting started template
+  - This is an inspiration template similar to the Getting Started template, but for Unit Testing templates.
+    - This DevEx plugin will improve productivity for Sitecore developers that want to quickly scaffold Unit Testing in their solution.
 
-_You can alternately paste a [link here](#docs) to a document within this repo containing the description._
 
 ## Video link
 ⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
@@ -34,11 +32,10 @@ _You can alternately paste a [link here](#docs) to a document within this repo c
 
 ⟹ Does your module rely on other Sitecore modules or frameworks?
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- Sitecore Command Line Interface (CLI Plugin)
+- Sitecore Management Services
+- .NET Core
 
-_Remove this subsection if your entry does not have any prerequisites other than Sitecore_
 
 ## Installation instructions
 ⟹ Write a short clear step-wise instruction on how to install your module.  
