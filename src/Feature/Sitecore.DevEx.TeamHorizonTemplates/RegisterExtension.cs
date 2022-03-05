@@ -4,6 +4,7 @@ using Sitecore.Devex.Client.Cli.Extensibility;
 using Sitecore.Devex.Client.Cli.Extensibility.Subcommands;
 using System;
 using System.Collections.Generic;
+using System.CommandLine;
 
 namespace Sitecore.DevEx.TeamHorizonTemplates
 {
@@ -11,7 +12,14 @@ namespace Sitecore.DevEx.TeamHorizonTemplates
     {
         public IEnumerable<ISubcommand> AddCommands(IServiceProvider container)
         {
-            throw new NotImplementedException();
+            if (container == null)
+                throw new ArgumentNullException(nameof(container));
+            TeamHorizonTemplatesCommand teamHorizonTemplatesCommand = new TeamHorizonTemplatesCommand();
+            //TODO add commands here
+            return (IEnumerable<ISubcommand>)new ISubcommand[1]
+            {
+                (ISubcommand) teamHorizonTemplatesCommand
+            };
         }
 
         public void AddConfiguration(IConfigurationBuilder configBuilder)
