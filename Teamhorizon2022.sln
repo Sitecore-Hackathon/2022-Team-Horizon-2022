@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamHorizon.Website", "src\Project\TeamHorizon.Website\TeamHorizon.Website.csproj", "{0838679B-55A4-40F1-9BCD-05C23E87EF9E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecore.DevEx.TeamHorizonTemplates", "src\Feature\Sitecore.DevEx.TeamHorizonTemplates\Sitecore.DevEx.TeamHorizonTemplates.csproj", "{19585FA2-F5FF-4A13-AD6E-DA6774E64FC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,12 +32,17 @@ Global
 		{0838679B-55A4-40F1-9BCD-05C23E87EF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0838679B-55A4-40F1-9BCD-05C23E87EF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0838679B-55A4-40F1-9BCD-05C23E87EF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19585FA2-F5FF-4A13-AD6E-DA6774E64FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19585FA2-F5FF-4A13-AD6E-DA6774E64FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19585FA2-F5FF-4A13-AD6E-DA6774E64FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19585FA2-F5FF-4A13-AD6E-DA6774E64FC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0838679B-55A4-40F1-9BCD-05C23E87EF9E} = {15D97D61-D597-42EC-B7E9-E9EC8130E630}
+		{19585FA2-F5FF-4A13-AD6E-DA6774E64FC2} = {17DD5718-6E13-4F2C-9738-B410396D4552}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
