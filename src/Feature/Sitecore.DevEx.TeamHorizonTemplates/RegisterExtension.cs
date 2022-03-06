@@ -24,12 +24,14 @@ namespace Sitecore.DevEx.TeamHorizonTemplates
 
         public void AddConfiguration(IConfigurationBuilder configBuilder)
         {
-            throw new NotImplementedException();
+
         }
 
         public void AddServices(IServiceCollection serviceCollection)
         {
-            throw new NotImplementedException();
+            if (serviceCollection == null)
+                throw new ArgumentNullException(nameof(serviceCollection));
+            serviceCollection.AddTeamHorizonTemplatesServices();
         }
     }
 }
